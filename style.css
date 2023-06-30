@@ -1,0 +1,36 @@
+* {
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://cdn.create.vista.com/api/media/small/461164264/stock-photo-white-blue-geometric-background-mosaic);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    background-color: #e0e0e0;
+    width: 85%;
+    height: 40rem;
+    margin: 3.13px auto;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+    border: none;
+}
+
+section{
+    background-color: #ffff;
+    width: 25rem;
+    height: 18rem;
+    margin: 50px auto;
+    border-radius: 1rem;
+}
+
+#image-qr-code{
+    width: 18rem;
+    margin: 2rem auto;
+}
