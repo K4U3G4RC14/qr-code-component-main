@@ -6,31 +6,61 @@
     box-sizing: border-box;
 }
 
-body{
-    background-image: url(https://cdn.create.vista.com/api/media/small/461164264/stock-photo-white-blue-geometric-background-mosaic);
-    background-size: cover;
-    width: 100vw;
-    height: 100vh;
+body {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 6%, rgba(9, 9, 121, 1) 45%, rgba(0, 86, 255, 1) 94%);
 }
 
-main{
-    background-color: #e0e0e0;
+main {
+    background-color: #a1a1a1;
     width: 85%;
-    height: 40rem;
-    margin: 3.13px auto;
-    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+    height: max-content;
+    margin: 8% auto;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 1);
     border: none;
+    padding: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
-section{
+.conteiner{
+    width: max-content;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
     background-color: #ffff;
-    width: 25rem;
-    height: 18rem;
-    margin: 50px auto;
+    width: 60%;
+    height: max-content;
+    padding: 2rem;
     border-radius: 1rem;
+    display: grid;
+    place-items: center;
 }
 
-#image-qr-code{
-    width: 18rem;
+#image-qr-code {
+    width: 100%;
+}
+
+.text {
     margin: 2rem auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 2rem;
+    word-spacing: 5px;
+}
+
+h2 {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: rgba(0, 0, 0, 0.5);
 }
